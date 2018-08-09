@@ -10,7 +10,7 @@ def least_coins(cents)
   money_left= money_left%5 
   penn = money_left
   coins= {:quarters => quar, :dimes => dim, :nickels => nick , :pennies => penn}
-  return coins 
+  puts coins 
 
 # coins {}
 # coins [:quarters] = 7
